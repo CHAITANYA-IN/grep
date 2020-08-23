@@ -1,0 +1,30 @@
+grep :
+Format for running :-
+    ./grep [options] pattern [files]
+
+*([] represents collection of those elements).
+
+Run 'make' on terminal in the respective directory to generate executable
+    --> $ make
+
+Simple test command :
+    --> $ ./grep pattern filename1 filename2 .. .. ..
+
+Options that you can implement with it :-
+-r : grep -r pattern [directories only]
+-i : grep -i pattern [files]
+-v : grep -v pattern [files]
+-f : grep -i input_file [files]
+-w : grep -w word [files]
+-c : grep -c pattern [files]
+-m : grep -m number pattern [files]
+-b : grep -b pattern [files]
+-q : grep -q pattern [files]
+-H : grep -H pattern [files]
+-h : grep -h pattern [files]
+
+-ch : grep -ch pattern [files]
+-cH : grep -cH pattern [files]
+-cv : grep -cv pattern [files]
+-cm : grep -cm pattern [files]
+-ci : grep -ci pattern [files]
